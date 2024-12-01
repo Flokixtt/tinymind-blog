@@ -20,11 +20,6 @@
     "timestamp": "2024-11-27T05:21:43.108Z"
   },
   {
-    "id": "1732507218658",
-    "content": "Docker manual\n\n```\nsudo apt remove golang-docker-credential-helpers\n```\n## Login\n```\ndocker login --username=fanrong@1451694405167915 registry.cn-hangzhou.aliyuncs.com\n```\n## Remove unused images\n```\ndocker image prune\n```\n## Remove build cache older than 24h\n```\ndocker builder prune --filter until=24h\n```\n",
-    "timestamp": "2024-11-25T04:00:18.658Z"
-  },
-  {
     "id": "1731978877313",
     "content": "晚上还是休息不好，醒得太早了，😣",
     "timestamp": "2024-11-19T01:14:37.313Z"
